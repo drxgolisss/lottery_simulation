@@ -17,7 +17,7 @@ This repository contains an implementation of classes for managing a set of numb
 ├── output             # sample program output
 └── task               # any helper scripts or notes
 
-Building
+Building:
 
 Make sure you have g++ and make installed. From the project root:
 # Build everything
@@ -29,7 +29,7 @@ make program
 To clean up build artifacts:
 make clean
 
-Running
+Running:
 
 After a successful build, you will have an executable named program in the project root. Run it with:
 ./program
@@ -37,3 +37,16 @@ After a successful build, you will have an executable named program in the proje
 By default, the program runs tests for Parts 1–4. Parts 5–7 are commented out in main.cpp—uncomment them as you implement those features.
 
 Sample output is provided in the output file.
+
+Useful Commands:
+
+make — build the project
+make clean — remove object files and executable
+./program — run the program
+git status — check repository status
+git add . — stage all changes
+git commit -m "" — commit changes
+git push — push to remote
+
+License
+MIT © Piotr Kharashkevich, 2025
