@@ -1,0 +1,39 @@
+Lottery Simulation
+
+This repository contains an implementation of classes for managing a set of numbered “balls”, a single lottery game, and a game machine that runs multiple draws.
+
+/
+├── Makefile           # build rules
+├── main.cpp           # entry point (formerly lab8.cpp)
+├── balls.h            # declaration of class Balls
+├── balls.cpp          # implementation of class Balls
+├── game.h             # declaration of class Game
+├── game.cpp           # implementation of class Game
+├── machine.h          # declaration of class GameMachine
+├── machine.cpp        # implementation of class GameMachine
+├── *.o                # object files
+├── deps.d             # dependency file for make
+├── program            # compiled executable
+├── output             # sample program output
+└── task               # any helper scripts or notes
+
+Building
+
+Make sure you have g++ and make installed. From the project root:
+# Build everything
+make
+
+# or explicitly:
+make program
+
+To clean up build artifacts:
+make clean
+
+Running
+
+After a successful build, you will have an executable named program in the project root. Run it with:
+./program
+
+By default, the program runs tests for Parts 1–4. Parts 5–7 are commented out in main.cpp—uncomment them as you implement those features.
+
+Sample output is provided in the output file.
